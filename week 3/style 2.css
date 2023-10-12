@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    color: #7300ff;
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+h2{
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    font-family: "Helvetica Neue", sans-serif;
+    margin-top: 10px;
+}
+
+h3{
+    text-align: center;
+    color: #444;
+    font-size: 20px;
+    font-family: "Helvetica Neue", sans-serif;
+    margin-top: 10px;
+}
+
+p{
+    text-align: center;
+    color: #3e3e3e;
+    font-size: 18px;
+    font-family: "Arial", sans-serif;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+body{
+    background-color: aliceblue;
+    background-image: url(Media/moroccan-flower.png);
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+a{
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

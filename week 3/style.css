@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e1e1e1;
+  text-align: center;
+  padding: 100px;
+}
+
+.welcome-message {
+  font-size: 24px;
+  color: #252525;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 36px;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: #007bff;
+  font-size: 24px;
+  font-family: "Helvetica Neue", sans-serif;
+  padding: 10px;
+  background-color: #eaf3fe;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+}
+
+h3 {
+  text-align: center;
+  color: #ff5733;
+  font-size: 18px;
+  font-family: "Times New Roman", serif;
+  padding: 12px;
+  background-color: #ffe5d0;
+  border: 1px solid #ff5733;
+  border-radius: 7px;
+}
+
+p {
+  text-align: center;
+  color: #444;
+  font-size: 16px;
+  font-family: Georgia, serif;
+  padding: 8px;
+  background-color: #f5f5f5;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
