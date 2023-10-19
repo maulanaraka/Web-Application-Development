@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKN Bojonegoro</title>
+</head>
+<body>
+    <h1>JavaScript Can Change Images</h1>
+    <img id="myImage" onclick="changeImage()" src="asset/d94e007d81d1175ca5f4d4d7b3a8d6b6.jpg" width="100" height="180">
+    <p>click the image to change image</p>
+    <script>
+        var isImage1 = true;
+
+        function changeImage() {
+            var image = document.getElementById('myImage');
+
+            if (isImage1) {
+                image.src = "asset/d94e007d81d1175ca5f4d4d7b3a8d6b6.jpg";
+            } else {
+                image.src = "asset/Exort Album Cover.png";
+            }
+
+            isImage1 = !isImage1; // Toggle the image source
+        }
+    </script>
+</body>
+</html>
