@@ -21,4 +21,4 @@
 
     echo $message;
     header("Location: index.php");
-    ?>
+?>
