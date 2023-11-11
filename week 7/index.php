@@ -61,10 +61,8 @@
             var confirmation = confirm('Apakah ingin menambah data barang ' + namaBarang + '?');
             
             if (confirmation) {
-                // Submit the form
                 return true;
             } else {
-                // Do not submit the form
                 return false;
             }
         }
